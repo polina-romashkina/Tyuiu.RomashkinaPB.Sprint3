@@ -37,7 +37,7 @@ namespace Tyuiu.RomashkinaPB.Sprint3.Task0.V12
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int value = 2;
+            int value = 1;
             int startValue = 1;
             int stopValue = 13;
             Console.WriteLine("Переменная t = " + value);

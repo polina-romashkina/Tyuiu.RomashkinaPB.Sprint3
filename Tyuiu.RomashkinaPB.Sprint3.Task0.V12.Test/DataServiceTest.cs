@@ -9,13 +9,13 @@ namespace Tyuiu.RomashkinaPB.Sprint3.Task0.V12.Test
         public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
-            int value = 2;
+            int value = 1;
             int startValue = 1;
             int stopValue = 13;
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 16384.252;
+            double wait = 7.5;
 
             Assert.AreEqual(wait, res);
         }
