@@ -17,7 +17,7 @@ namespace Tyuiu.RomashkinaPB.Sprint3.Task3.V15.Lib
                 }
                 else
                 {
-                    if (currentCount > 1)
+                    if (currentCount > 0)
                     {
                         if (currentCount < minCount)
                         {
@@ -28,7 +28,7 @@ namespace Tyuiu.RomashkinaPB.Sprint3.Task3.V15.Lib
                 }
             
             }
-            if (currentCount > 1 && currentCount < minCount)
+            if (currentCount > 0 && currentCount < minCount)
             {
                 minCount = currentCount;  
             }
