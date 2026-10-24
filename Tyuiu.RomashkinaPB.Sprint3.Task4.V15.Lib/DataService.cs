@@ -11,7 +11,7 @@ namespace Tyuiu.RomashkinaPB.Sprint3.Task4.V15.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
